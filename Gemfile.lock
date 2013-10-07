@@ -25,7 +25,6 @@ GIT
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.3.5)
     akami (1.2.0)
       gyoku (>= 0.4.0)
       nokogiri (>= 1.4.0)
@@ -36,8 +35,6 @@ GEM
     builder (3.2.2)
     coderay (1.0.9)
     columnize (0.3.6)
-    crack (0.4.1)
-      safe_yaml (~> 0.9.0)
     daemons (1.1.9)
     debugger (1.6.2)
       columnize (>= 0.3.1)
@@ -116,7 +113,6 @@ GEM
       rspec (~> 2.11)
     rspec-mocks (2.14.3)
     rubyntlm (0.1.1)
-    safe_yaml (0.9.7)
     savon (0.9.5)
       akami (~> 1.0)
       builder (>= 2.1.2)
@@ -137,9 +133,6 @@ GEM
     uuidtools (2.1.4)
     wasabi (1.0.0)
       nokogiri (>= 1.4.0)
-    webmock (1.13.0)
-      addressable (>= 2.2.7)
-      crack (>= 0.3.2)
     winrm (1.1.2)
       gssapi (~> 1.0.0)
       httpclient (~> 2.2.0.2)
@@ -164,4 +157,3 @@ DEPENDENCIES
   rspec-fire
   simplecov
   simplecov-rcov
-  webmock

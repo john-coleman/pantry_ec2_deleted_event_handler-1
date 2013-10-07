@@ -10,7 +10,6 @@ end
 
 require 'aws'
 require 'rspec/fire'
-require 'webmock/rspec'
 require 'spec_support/shared_daemons'
 
 AWS.config :access_key_id=>"test", :secret_access_key=>"test"

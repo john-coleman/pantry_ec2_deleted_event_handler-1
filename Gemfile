@@ -13,7 +13,6 @@ group :test, :development do
   gem 'simplecov-rcov', require: false
   gem 'rspec-fire'
   gem 'rest-client'  
-  gem 'webmock'
   gem 'rspec'
   gem 'pry-debugger'
   gem 'rake'
