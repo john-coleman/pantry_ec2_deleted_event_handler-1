@@ -10,7 +10,6 @@ module Wonga
         @logger.info "Updating deleted status for Request:#{message['pantry_request_id']}, Name:#{message['instance_name']}, InstanceID:#{message['instance_id']}"
         message[:terminated] = true
         @api_client.send_put_request("/api/ec2_instances/#{message['id']}", message)
-        @logger.info "Updating deleted joined status for Request:#{message['pantry_request_id']} succeeded"
       end
     end
   end
