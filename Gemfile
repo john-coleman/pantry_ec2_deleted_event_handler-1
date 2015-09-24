@@ -11,6 +11,6 @@ group :test, :development do
   gem 'simplecov', require: false
   gem 'simplecov-rcov', require: false
   gem 'rspec-fire'
-  gem 'pry-debugger'
+  gem 'pry'
   gem 'rake'
 end
